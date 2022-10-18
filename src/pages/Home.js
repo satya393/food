@@ -1,6 +1,7 @@
 
 import React, { Component } from 'react';
 import Container from 'react-bootstrap/Container';
+import Carousel from '../components/Carousel/Carousel';
 
 import Map from '../components/map/map';
 import Footer from '../components/Footer'
@@ -12,9 +13,11 @@ class Home extends Component {
     return (
         
         <>
-        <Container className=' '> 
+   <Carousel/>
+        <Container className=' '>
+        {/* <h2 >Home</h2> */}
+         
         
-         <h2 >Home</h2>
         
          <section id="about container ">
           <div class="container aos-init aos-animate " data-aos="fade-up">
@@ -41,6 +44,8 @@ class Home extends Component {
               </div>
               </section>
 
+
+        
          </Container>
     
     

@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
 import NavDropdown from 'react-bootstrap/NavDropdown';
 // import { Nav} from 'react-bootstrap';
 
@@ -9,8 +12,16 @@ class Navebar extends Component {
   render() {
     return (
       <>
-      
-<Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" >
+
+      <Row style= {{marginTop:'85px'}}>
+        {/* <Col className='m-0'></Col> */}
+      </Row>
+
+<Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" style ={{ position: "fixed",
+  top:"0",
+  width: "100%",
+  zIndex: "100"
+}}>
       <Container className='m-3'>
         <Navbar.Brand href="/home">Princess-Food</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
