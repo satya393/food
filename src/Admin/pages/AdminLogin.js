@@ -36,3 +36,39 @@ class AdminLogin extends Component {
 }
 
 export default AdminLogin;
+
+
+
+// import React, { useRef } from 'react'
+
+
+
+// import { useRef, useState, useEffect } from 'react';
+
+// const AdminLogin = () => {
+//  const useRef = useRef();
+//  const errRef = useRef();
+
+
+//  const [user , setUser] = useState('');
+//  const [pwd , setPwd] = useState('');
+//  const [errMsg , setErrMsg] = useState('');
+//  const [success , setSuccess] = useState(false);
+
+//         useEffect(() => {
+//           useRef.current.focus();
+//         }, [])
+
+//         useEffect(() => {
+//           setErrMsg('');
+//         }, [user , pwd])
+
+//   return (
+//     <section>
+//       <p ref = {errRef} className={errMsg ? "errMsg":"offscreen"} aria-alive="assertive"> {errMsg} </p>
+//       <h1>Signin</h1>
+//     </section>
+//   )
+// }
+// AdminLogin();
+// export default AdminLogin;

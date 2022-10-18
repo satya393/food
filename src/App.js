@@ -8,8 +8,15 @@ import Map from './components/map/map';
 import Footer from './components/Footer';
 import ScrollTop from './components/scrollTop';
 import AdminDashbord from './vAdminRouting';
+// import AdminLogin from '../src/Admin/pages/AdminLogin'
 
+// function App(){
 
+//   <main>
+//     <AdminLogin/>
+//   </main>
+
+// }
 
 class App extends Component {
 
@@ -20,7 +27,7 @@ class App extends Component {
 
 
       <>
-      
+      {/* <AdminLogin/> */}
         <Navebar/>
         <Routing/>
         <AdminDashbord/>

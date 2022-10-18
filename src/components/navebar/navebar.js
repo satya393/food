@@ -47,8 +47,8 @@ class Navebar extends Component {
             </NavDropdown> */}
           </Nav>
           <Nav>
-            <Nav.Link href="/Login">Login</Nav.Link>
-            <Nav.Link href="/SignUp">SignUp</Nav.Link>
+            {/* <Nav.Link href="/Login">Login</Nav.Link> */}
+            {/* <Nav.Link href="/SignUp">SignUp</Nav.Link> */}
             {/* <Nav.Link eventKey={2} href="#memes">
               Dank memes
             </Nav.Link> */}
