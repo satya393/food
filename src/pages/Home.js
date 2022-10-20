@@ -5,6 +5,7 @@ import Carousel from '../components/Carousel/Carousel';
 
 import Map from '../components/map/map';
 import Footer from '../components/Footer'
+import UserComponent from '../components/UserComponent'
 
 
 
@@ -14,6 +15,7 @@ class Home extends Component {
         
         <>
    <Carousel/>
+   <UserComponent/>
         <Container className=' '>
         {/* <h2 >Home</h2> */}
          
